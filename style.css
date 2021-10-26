@@ -1,0 +1,173 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    position: absolute;
+    top: 110px;
+    left: 180px;
+    
+}
+.login {
+    display: none;
+}
+.img {
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    width: 150%;
+}
+.wrap {
+    position: absolute;
+    top: 8%;
+    left: 145%;
+    transform: translate(-50%, -50%);
+}
+.menu {
+    width: 100px;
+    height: 10px;
+    background-color: black;
+    margin: 20px 0;
+}
+.new {
+    background-color: black;
+    color: white;
+    font-size: 66px;
+    width: 190px;
+    text-align: center;
+    border-radius: 50px;
+    position: absolute;
+    top: 90%;
+    left: 180px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 60px;
+}
+
+.h1 {
+    position: absolute;
+    top: 90.5%;
+    left: 450px;
+    color: hsl(230, 11%, 40%);
+    width: 90%;
+    font-size: 50px;
+    initial-letter-align: 50px;
+    word-spacing: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.p1 {
+    position: absolute;
+    top: 100%;
+    left: 180px;
+    font-size: 120px;
+    width: 140%;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.p2 {
+    position: absolute;
+    top: 120%;
+    left: 180px;
+    width: 140%;
+    font-size: 90px;
+    color: hsl(230, 11%, 40%);
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.button {
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    position: absolute;
+    height: 150px;
+    width: 580px;
+    top: 137%;
+    left: 180px;
+    font-size: 50px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.p3 {
+    position: absolute;
+    top: 139.2%;
+    left: 780px;
+    width: 100%;
+    font-size: 70px;
+    letter-spacing: 10px;
+    color: hsl(230, 11%, 40%);
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+@media screen and (min-width:1024px) {
+    .logo {
+        position: absolute;
+        left: 90px;
+    }
+    .new {
+        position: absolute;
+        top: 50%;
+        left: 90px;
+    }
+    .login {
+        display: flex;
+        font-size: 30px;
+        font-family: 'Barlow Condensed', sans-serif;
+        position: absolute;
+        top: 100px;
+        left: 1050px;
+        width: 100%;
+        color: hsl(230, 11%, 40%);
+        letter-spacing: 10px;
+        word-spacing: 30px;
+    
+    }
+    .h1 {
+        position: absolute;
+        top: 53%;
+        left: 300px;
+        color: hsl(230, 11%, 40%);
+        word-spacing: 2px;
+        font-size: 30px;
+    }
+    .img {
+        position: absolute;
+        top: 50%;
+        left: 110%;
+        width: 100%;
+        height: 150vh;
+    
+    }
+    .wrap {
+        display: none;
+    }
+    .p1 {
+        position: absolute;
+        top: 80%;
+        left: 90px;
+        font-size: 80px;
+        ;
+    }
+    .p2 {
+        position: absolute;
+        top: 120%;
+        left: 90px;
+        font-size: 60px;
+        color: hsl(230, 11%, 40%);
+    }
+
+    .button {
+        position: absolute;
+        top: 160%;
+        left: 80px;
+        height: 100px;
+        width: 600px;
+    }
+    .p3 {
+        position: absolute;
+        top: 165%;
+        left: 700px;
+        font-size: 30px;
+        color: hsl(230, 11%, 40%);
+    }
+
+}
